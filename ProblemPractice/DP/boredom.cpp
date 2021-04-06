@@ -1,8 +1,8 @@
-#include "/Users/gbatra/ProblemPractice/stdc++.h"
+#include "/Users/gbatra/Problems-Practice/ProblemPractice/stdc++.h"
 using namespace std;
 #define ll long long
 
-int DP[1000000000001];
+int DP[100001];
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
         cin >> A[i];
     }
     DP[0] = A[0];
-    for (int i = 1; i < N; i++)
+    for (int i = 1; i < N - 2; i++)
     {
         DP[i] =
     }
